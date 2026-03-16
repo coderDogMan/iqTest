@@ -395,7 +395,7 @@ function KeyVerificationPage({onVerify}){
         <div className="card-header">密钥验证</div>
         <div className="card-body">
           <h5 className="card-title">请输入访问密钥</h5>
-          <p>密钥必须是16位，第一位为'K'，以'Tz'结尾。</p>
+          <p>密钥必须是16大小写字母加字符串。</p>
           <form onSubmit={handleSubmit}>
             <div className="input-group mb-3">
               <span className="input-group-text">密钥</span>
